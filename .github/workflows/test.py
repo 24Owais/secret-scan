@@ -1,2 +1,4 @@
-# GitHub Personal Access Token format (Gitleaks built-in rule)
-GITHUB_TOKEN = "ghp_123456789012345678901234567890123456"
+import os
+
+# Safe: Reading token from environment variables instead of hardcoding
+GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
