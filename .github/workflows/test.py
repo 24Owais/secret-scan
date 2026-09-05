@@ -1,2 +1,2 @@
-# Testing secret detection
-AWS_KEY = "AKIAIOSFODNN7EXAMPLEKEY"
+# Real-looking AWS Secret Key pattern
+AWS_SECRET_ACCESS_KEY = "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY"
